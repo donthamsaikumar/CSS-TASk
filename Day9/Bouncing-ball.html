@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sa{
+            border: 2px solid black;
+            height: 300px;
+            width: 300px;
+            background-color: black;
+            margin: 200px;
+            padding: 20px;
+            padding-left:50px;
+            
+
+        }
+
+        #div1 {
+            border-radius: 50px;
+            height: 1px;
+            width: 1px;
+            background-color: brown;
+            padding: 30px;
+            margin: 7px;
+            animation-delay: 3s;
+            display: inline-block;
+            transition-property: all;
+            animation-name: sai;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            animation-direction: alternate;
+            margin-top: 260px;
+
+           
+        }
+        #div2{
+            border-radius: 200px;
+            height: 1px;
+            width: 1px;
+            background-color: rgb(135, 128, 128);
+            padding: 30px;
+            margin: 7px;
+            animation-delay: 1s; 
+            display: inline-block;
+            transition-property: all;
+            animation-name: sai;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+            /* margin-top: 260px; */
+        }
+        #div3{
+            border-radius: 200px;
+            height: 1px;
+            width: 1px;
+            background-color: rgb(154, 222, 177);
+            padding: 30px;
+            margin: 7px;
+            animation-delay: 2s;
+            display: inline-block;
+            transition-property: all;
+            animation-name: sai;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+        }
+        
+        
+        
+
+         @keyframes sai {
+            0% {
+                background-color: aqua;
+                transform: translateY(px);
+            }
+
+            50% {
+                background-color: rgb(194, 28, 158);
+                transform: translateY(-250px);
+
+            }
+
+            100% {
+                background-color: rgb(154, 225, 13);
+            }
+        }   
+        @keyframes kumar{
+            0%{
+                background-color: azure;
+                transform: scale(1.5);
+            }
+
+        }
+        /* @keyframes ku{
+            0%{
+               background-color: antiquewhite; 
+               transform: translateY(-100px);
+            } */
+        
+         #aa{
+            border: 1px solid yellow;
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            margin: 200px;
+            padding: 20px;
+            padding-left:50px;
+           
+         }
+         #a{
+            border-radius: 20px; 
+            height: 1px;
+            width: 1px;
+            background-color: rgb(154, 222, 177);
+            padding: 9px;
+            margin: 5px;
+            margin-top: 140px;
+            display: inline-block;
+            margin-right: -8px;
+            animation-name: kumar;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+
+
+
+         }
+         #b{
+            border-radius: 20px; 
+            height: 1px;
+            width: 1px;
+            background-color: rgb(154, 222, 177);
+            padding: 9px;
+            margin: 5px;
+            margin-top: 10px;
+            display: inline-block;
+            margin-right: -4px;
+            animation-name: kumar;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+         }
+         #c{
+            border-radius: 20px; 
+            height: 1px;
+            width: 1px;
+            background-color: rgb(154, 222, 177);
+            padding: 10px;
+            margin: 5px;
+            margin-top: 10px;
+            display: inline-block;
+            margin-right: -7px;
+            animation-name: kumar;
+            animation-duration: 4s;
+            animation-delay: 3s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+         }
+    </style>
+</head>
+
+<body>
+    <h2>Bouncing ball</h2>
+    <div id="sa">
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    
+
+</div>
+    <h2>Loading graph</h2> 
+
+<div id="aa">
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+</div>
+</body>
+
+</html>

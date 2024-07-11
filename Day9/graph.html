@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            
+            background-color: bisque;
+            display: inline-block;
+            height: 500px;
+            width: 45px;
+            position: fixed;
+            bottom: 1px;
+            border-radius: 10px;
+            margin: 0px 0px 1px 10px;
+            animation-name: na;
+            animation-delay: 2s;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            animation-timing-function: ease-in;
+
+
+        }
+
+        #div2 {
+            background-color: rgb(81, 116, 116);
+            display: inline-block;
+            height: 600px;
+            width: 45px;
+            border-radius: 5px;
+            animation-name: na;
+            bottom: 1px;
+            position: fixed;
+            margin: 0px 0px 1px 60px;
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            animation-timing-function: ease;
+
+
+        }
+
+        #div3 {
+            background-color: rgb(207, 222, 222);
+            display: inline-block;
+            height: 500px;
+            width: 45px;
+            margin: 0px 0px 1px 110px;
+            position: fixed;
+            border-radius: 3px;
+            bottom: 1px;
+            position: fixed;
+            animation-name: na;
+            animation-delay: 2s;
+            animation-duration: 5s; 
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            background-attachment: fixed;
+            animation-timing-function: ease-in-out; 
+
+        }
+        #div4{
+            background-color: rgb(17, 29, 29);
+            display: inline-block;
+            height: 500px;
+            width: 45px;
+            margin: 0px 0px 1px 160px;
+            position: fixed;
+            border-radius: 3px;
+            bottom: 1px;
+            position: fixed;
+            animation-name: na;
+            animation-delay: 3s;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: backwards;
+            animation-timing-function: ease-in;
+        }
+        #div5{
+            background-color: powderblue;
+            display: inline-block;
+            height: 450px;
+            width: 45px;
+            margin: 0px 0px 1px 210px;
+            position: fixed;
+            border-radius: 3px;
+            bottom: 1px;
+            position: fixed;
+            animation-name: sa;
+            animation-delay: 2s;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: backwards;
+            animation-timing-function: linear;
+        }
+        #div6{
+            background-color: rgba(135, 76, 136, 0.629);
+            display: inline-block;
+            height: 600px;
+            width: 45px;
+            margin: 0px 0px 1px 260px;
+            position: fixed;
+            border-radius: 3px;
+            bottom: 1px;
+            position: fixed;
+            animation-name: na;
+            animation-delay: 3s;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: backwards;
+            animation-timing-function: ease-out;
+
+        }
+        #div7{
+            background-color: rgb(73, 163, 175);
+            display: inline-block;
+            height: 400px;
+            width: 45px;
+            margin: 0px 0px 1px 310px;
+            position: fixed;
+            border-radius: 3px;
+            bottom: 1px;
+            position: fixed;
+            animation-name: sa;
+            animation-delay: 2s;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: backwards;
+            animation-timing-function: ease-in-out;
+            
+        }
+        #div8{
+            background-color: rgb(167, 171, 171);
+            display: inline-block;
+            height: 550px;
+            width: 45px;
+            margin: 0px 0px 1px 360px;
+            position: fixed;
+            border-radius: 3px;
+            bottom: 1px;
+            position: fixed;
+            animation-name: na;
+            animation-delay: 3s;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: backwards;
+            animation-timing-function: ease-in;
+            
+        }
+
+        @keyframes na {
+            0% {
+                background-color: blanchedalmond;
+                /* transform: translateX(20px); */
+                transform: translateY(100px);
+            }
+
+            25% {
+                background-color: rgb(174, 107, 189);
+                /* transform: translateX(20px); */
+                transform: translateY(150px);
+            }
+
+            50% {
+                background-color: rgb(110, 201, 226);
+                /* transform: translateX(30px); */
+                transform: translateY(200px);
+            }
+            
+        }
+        @keyframes sa{
+            0%{
+                background-color: chartreuse;
+                transform: translateY(500px);
+            }
+            25%{
+                background-color: rgb(61, 61, 84);
+                transform: translateY(300px);
+            }
+            50%{
+                transform: translateY(20px);
+                background-color: azure;
+            }
+            75%{
+                transform: translateY(200px);
+                background-color: rgba(195, 185, 148, 0.856);  
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgb(125, 133, 134); height: 100vh; width: 100vh; position: fixed; background-image: url(../pexels-souvenirpixels-414612.jpg); background-size: cover;">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+        <div id="div5"></div>
+        <div id="div6"></div>
+        <div id="div7"></div>
+        <div id="div8"></div>
+    </div>
+</body>
+
+</html>
